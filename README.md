@@ -23,7 +23,7 @@ This project allows a user to manipulate and append a list of 3 database tables.
 
 ## Installation
 
-First, you need to clone the github repo. Then, in the same folder as "server.js", you need to run two commands: "npm i install" and "npm i inquirer@8.2.4". watch the video for any help. 
+First, you need to clone the github repo. Then, in the same folder as "server.js", you need to run two commands: "npm i install" and "npm i inquirer@8.2.4" and then "npm i mysql2". watch the video for any help. 
 
 ## Usage
 When you start using this, you first need to run "mysql -u root -p" and then you run these commands in this order: "source db/schema.sql", "source db/seeds.sql", and then "source db/query.sql". After that then you can run the program and use the arrow keys to select options.
